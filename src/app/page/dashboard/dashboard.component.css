@@ -1,0 +1,19 @@
+.intro{
+    /* text-align: center; */
+    justify-content: left;
+    top:20px;
+
+}
+.header img{
+    float:left;
+    width: 50px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.header h1{
+    position:relative;
+    top:5px;
+    left:10px;
+}
