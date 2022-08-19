@@ -4,7 +4,6 @@ export interface taskContent{
   taskName:string;
   highPriority:boolean;
   category:string;
-
 }
 @Component({
   selector: 'app-task',
@@ -18,4 +17,5 @@ export class TaskComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }

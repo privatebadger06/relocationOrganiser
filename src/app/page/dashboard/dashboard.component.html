@@ -6,3 +6,15 @@
     <p>All the tasks you create will appear here in board <br>
     Click <a href="/task">here</a> to create a new task</p>
 </div>
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-board-tab" data-toggle="tab" role="tab" aria-controls="nav-board" aria-selected="false">Board View</a>
+      <a class="nav-item nav-link" id="nav-plus-tab" data-toggle="tab" href="/task" role="tab" aria-controls="nav-plus" aria-selected="true">+</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-board" role="tabpanel" aria-labelledby="nav-board-tab">
+        <app-task-list></app-task-list>
+    </div>
+    <div class="tab-pane fade" id="nav-plus" role="tabpanel" aria-labelledby="nav-plus-tab"></div>
+  </div>
