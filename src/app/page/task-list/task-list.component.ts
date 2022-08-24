@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { catchError, Observable, of, tap } from 'rxjs';
+import { TaskService } from 'src/app/service/task.service';
 
 @Component({
   selector: 'app-task-list',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskListComponent implements OnInit {
 
+  columns =['To-Do', 'Doing', 'Done'];
+  //Dependency injection
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
